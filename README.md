@@ -1,4 +1,4 @@
-# Effects of COVID-19 Pandemic on a New Channel’s Interaction
+# [Python] Effects of COVID-19 Pandemic on a New Channel’s Interaction
 
 ## 📖 Overview
 This project analyzes how the COVID-19 pandemic affected audience interaction on a new media channel. The goal is to investigate whether the pandemic positively or negatively impacted engagement levels—such as likes, comments, and user sentiment—and how audience behavior shifted during different phases of the pandemic.
