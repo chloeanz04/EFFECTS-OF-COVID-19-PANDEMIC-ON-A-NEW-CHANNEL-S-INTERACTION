@@ -39,13 +39,11 @@ The project consists of three main notebooks, each representing a stage in the d
 2. **Did health-related videos receive higher average view counts during COVID-19?**
 
 **Main tasks:**
-- Analyzed engagement trends across different pandemic periods.
-- Compared shifts in audience sentiment derived from LLM outputs.
-- Created visualizations:
-  - Line charts  
-  - Bar charts  
-  - Word clouds  
-  - Interaction trend plots  
+- Dataset import and cleaning  
+- Labeling health-related content  
+- Splitting data into pre-COVID vs COVID periods  
+- Statistical hypothesis testing  
+- Visualization of content and engagement trends  
 
 ---
 
