@@ -9,7 +9,7 @@ The project covers the full workflow: automated data collection, LLM-based text 
 
 ## 📂 Project Structure
 
-The project consists of three main notebooks, each representing a stage in the data pipeline:
+The project consists of **3 main notebooks**, each representing a stage in the data pipeline:
 
 ### 1. `crawl_data.ipynb` — Data Collection
 **Objective:** Collect structured news data from the Bao Thanh Niên YouTube channel for analysis.
