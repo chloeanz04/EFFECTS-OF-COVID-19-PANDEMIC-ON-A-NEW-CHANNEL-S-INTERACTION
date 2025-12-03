@@ -26,11 +26,14 @@ The project consists of three main notebooks, each representing a stage in the d
 ---
 
 ### 2. `llm.ipynb` — Text Processing with LLMs
-**Objective:** Leverage Large Language Models (LLMs) to analyze unstructured text data.
+**Objective:** Leveraging LLM to classify videos related to the medical field based on their titles.
 
 **Main tasks:**
-- Connected to LLM APIs (Gemini).
-- Performed: Classification (1 - medical-related, 0 - the opposite).
+- Used an LLM to automatically classify whether each video is related to the medical/health domain.
+- Assigned labels by adding a new column `medical_field`:
+  - `1` — medical-related content  
+  - `0` — other categories
+- Exported the labeled dataset as `final_data.csv`, which serves as the primary dataset for hypothesis testing.
 
 ---
 
