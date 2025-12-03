@@ -51,11 +51,16 @@ The project consists of three main notebooks, each representing a stage in the d
 <p align="center">
   <strong>Distribution of views by years</strong>
 </p>
+
 <img width="993" height="610" alt="image" src="https://github.com/user-attachments/assets/0cbb3745-31cc-4b83-9482-ca288ae1c260" />
 
 The average view count of news videos increased during the COVID-19 period.
 
 In particular, at the beginning of the COVID-19 period, the average views of health-related videos surged sharply, reaching a peak nearly **5 times** higher than before and after COVID. This was higher than all other content categories (during the first three months of 2020).
+
+<p align="center">
+  <strong>OLS results</strong>
+</p>
 
 <img width="678" height="453" alt="image" src="https://github.com/user-attachments/assets/aa7d0a8e-ca93-461f-a7b2-dea958186b89" />
 
