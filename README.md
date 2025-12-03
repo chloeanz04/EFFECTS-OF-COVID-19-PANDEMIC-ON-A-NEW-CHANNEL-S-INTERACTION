@@ -18,9 +18,9 @@ The project consists of three main notebooks, each representing a stage in the d
 - Selected the Bao Thanh Niên YouTube channel as a consistent and reliable data source due to its steady posting frequency and engagement levels.
 - Crawled multiple playlists containing videos across different topics and time periods to control dataset size and coverage.
 - Extracted key attributes from each video:
-  - Video title (used to identify the content category)
-  - Upload date (used to determine the posting period)
-  - View count and like count (represent user engagement)
+  - **Video title**: Identify the content category
+  - **Upload date**: Used to determine the posting period
+  - **View count and like count**: Represent user engagement
 - Exported and stored the collected data into the initial dataset: `video_data.csv`.
 
 ---
