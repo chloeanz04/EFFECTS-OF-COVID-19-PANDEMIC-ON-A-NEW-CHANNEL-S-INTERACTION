@@ -71,6 +71,15 @@ The project consists of **3 main notebooks**, each representing a stage in the d
 
 ## Result
 <p align="center">
+  <strong>Distribution of number of videos inside and outside Covid period</strong>
+</p>
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/1f83e959-a42f-44f9-a4a7-c4c7331f3a4e" />
+
+The chart above shows that the proportion of medical-related videos increased significantly during the COVID-19 period.
+
+➡ This indicates that medical-related videos received more attention during the pandemic.
+
+<p align="center">
   <strong>Distribution of views by years</strong>
 </p>
 
