@@ -12,7 +12,7 @@ The project covers the full workflow: automated data collection, LLM-based text 
 The project consists of three main notebooks, each representing a stage in the data pipeline:
 
 ### 1. `crawl_data.ipynb` — Data Collection
-**Objective:** Automatically collect data from the target platform (e.g., YouTube, Facebook, TikTok).
+**Objective:** Automatically collect data from Bao Thanh Nien channel on Youtube.
 
 **Main tasks:**
 - Used Selenium for web scraping.
