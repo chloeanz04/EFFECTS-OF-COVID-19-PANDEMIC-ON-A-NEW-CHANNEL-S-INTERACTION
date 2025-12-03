@@ -42,12 +42,30 @@ The project consists of **3 main notebooks**, each representing a stage in the d
 1. **Did the proportion of health-related news videos increase during the COVID-19 period?**
 2. **Did health-related videos receive higher average view counts during COVID-19?**
 
+**Workflow**: Data preprocessing -> Hypothesis testing -> Data visualization
+
 **Main tasks:**
-- Dataset import and cleaning  
-- Labeling health-related content  
-- Splitting data into pre-COVID vs COVID periods  
-- Statistical hypothesis testing  
-- Visualization of content and engagement trends  
+- **Data Preprocessing**:
+  - Checked and handled missing values, corrupted entries, and duplicates generated during the crawling process.
+  - Converted all fields into the correct data types and formats.
+  - Identified the intervention period and created a binary label:
+    - `0` — outside the COVID-19 period
+    - `1` — during the COVID-19 period
+  - Processed outliers:
+    - Since extreme view counts can heavily distort the mean, we applied min–max capping (performed separately for each period) to ensure the most objective results.
+
+- **Hypothesis Testing**:
+  - Performed descriptive statistics to observe changes in the number of medical-related videos over time.
+  - Calculated the proportion of medical-related videos across different periods.
+  - Computed the Difference-in-Differences (DiD) coefficient to estimate the causal impact of COVID-19 on the *quantity* of medical-related videos.
+  - Applied the Difference-in-Differences method using **average view counts** as the dependent variable.
+  - Calculated the average views of medical-related videos across all periods.
+  - Computed the DiD estimate to quantify the causal effect of COVID-19 on the **views** of medical-related videos.
+  - Estimated the coefficients of key variables (medical_field, time_in_covid, interaction term `did`) on view count.
+  - Used an OLS regression model to statistically validate the hypothesis based on the final dataset.
+
+- **Data Visualization**:
+  - Visualized the changes in the number of medical-related videos and the average view counts to illustrate the influence of COVID-19 across periods.
 
 ---
 
