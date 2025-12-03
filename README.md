@@ -15,7 +15,7 @@ The project consists of three main notebooks, each representing a stage in the d
 **Objective:** Automatically collect data from Bao Thanh Nien channel on Youtube.
 
 **Main tasks:**
-- Used Selenium for web scraping.
+- Used Selenium to crawl 15000 records in one Bao Thanh Nien's playlist.
 - Collected information:
   - Video/post title  
   - Upload date  
