@@ -44,3 +44,12 @@ The project consists of three main notebooks, each representing a stage in the d
 - Splitting data into pre-COVID vs COVID periods  
 - Statistical hypothesis testing  
 - Visualization of content and engagement trends  
+
+---
+
+## Result
+<img width="993" height="610" alt="image" src="https://github.com/user-attachments/assets/0cbb3745-31cc-4b83-9482-ca288ae1c260" />
+
+The average view count of news videos increased during the COVID-19 period.
+
+In particular, at the beginning of the COVID-19 period, the average views of health-related videos surged sharply, reaching a peak nearly **5 times** higher than before and after COVID. This was higher than all other content categories (during the first three months of 2020).
