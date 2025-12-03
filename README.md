@@ -106,3 +106,26 @@ In particular, at the beginning of the COVID-19 period, the average views of hea
   - This suggests that during COVID-19, **health-related videos gained an additional 12,450 views** compared to non-health videos.  
 - **P-value:** `0.019` (< 0.05)  
   - With 95% confidence, we accept the hypothesis that **health-related news received increased attention during the COVID-19 outbreak**.
+ 
+---
+
+### **Explanation**
+
+**Scraping Data from Playlists:**  
+- YouTube is a dynamic website with infinite scrolling. Crawling videos from 3–4 years ago requires a very large RAM to store the massive information from tens of thousands of videos, making it difficult to process.  
+- To get the upload date and view count, each video requires two clicks (video and description), and repeated actions can trigger YouTube’s bot-detection mechanism.  
+- If crawling from the main page and the connection is interrupted, it takes time to scroll back to the interrupted video. Using playlists provides a specific index for each video, making it easier to resume crawling.
+
+**Using LLM:**  
+- Manual labeling is time-consuming due to the large volume of data. The medical field is also a common category, making classification easier.  
+
+**Not Using “Likes” Attribute:**  
+- Although likes reflect user engagement, in this dataset they are negligible compared to view counts. To ensure more accurate hypothesis testing, we did not use this attribute.
+
+**Defining the COVID-19 Period:**  
+- **Start:** January 30, 2020 — when the first cases were detected in Vietnam  
+- **End:** March 30, 2022 — although the Ministry of Health declared the pandemic over on July 7, 2023, this end date was chosen because society had largely returned to normal operations and vaccines were available to control the outbreak.
+
+**Choosing the Difference-in-Differences (DiD) Model:**  
+- Synthetic Control is suitable for hypotheses focusing on a specific group of videos and requires a large number of untreated units (videos not during COVID-19).  
+- DiD is more appropriate for datasets with many units and time periods, and it is simpler to implement.
