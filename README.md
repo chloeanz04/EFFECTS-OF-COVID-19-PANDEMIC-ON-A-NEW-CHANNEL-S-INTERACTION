@@ -12,15 +12,16 @@ The project covers the full workflow: automated data collection, LLM-based text 
 The project consists of three main notebooks, each representing a stage in the data pipeline:
 
 ### 1. `crawl_data.ipynb` — Data Collection
-**Objective:** Automatically collect data from Bao Thanh Nien channel on Youtube.
+**Objective:** Collect structured news data from the Bao Thanh Niên YouTube channel for analysis.
 
 **Main tasks:**
-- Used Selenium to crawl 15000 records in one Bao Thanh Nien's playlist.
-- Collected information:
-  - Video/post title  
-  - Upload date  
-  - Likes
-- Exported and stored raw data for further processing.
+- Selected the Bao Thanh Niên YouTube channel as a consistent and reliable data source due to its steady posting frequency and engagement levels.
+- Crawled multiple playlists containing videos across different topics and time periods to control dataset size and coverage.
+- Extracted key attributes from each video:
+  - Video title (used to identify the content category)
+  - Upload date (used to determine the posting period)
+  - View count and like count (represent user engagement)
+- Exported and stored the collected data into the initial dataset: `video_data.csv`.
 
 ---
 
