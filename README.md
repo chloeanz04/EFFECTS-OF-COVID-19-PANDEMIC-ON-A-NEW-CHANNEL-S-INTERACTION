@@ -49,7 +49,7 @@ The project consists of three main notebooks, each representing a stage in the d
 
 ## Result
 <p align="center">
-  **Distribution of vieews by years**
+  <strong>Distribution of views by years</strong>
 </p>
 <img width="993" height="610" alt="image" src="https://github.com/user-attachments/assets/0cbb3745-31cc-4b83-9482-ca288ae1c260" />
 
