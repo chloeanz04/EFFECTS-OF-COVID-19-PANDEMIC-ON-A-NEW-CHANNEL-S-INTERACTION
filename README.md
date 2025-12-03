@@ -39,9 +39,9 @@ The project consists of **3 main notebooks**, each representing a stage in the d
 
 ### 3. `analysis.ipynb` — Analysis & Visualization
 **Objective:** Derive insights and answer the research question regarding COVID-19’s impact on audience interaction:
-1. **Did the proportion of health-related news videos increase during the COVID-19 period?**
-2. **Did health-related videos receive higher average view counts during COVID-19?**
-
+<p align="center">
+  <strong>Medical-related videos received increased attention during the COVID-19 outbreak.</strong>
+</p>
 **Workflow**: Data preprocessing -> Hypothesis testing -> Data visualization
 
 **Main tasks:**
