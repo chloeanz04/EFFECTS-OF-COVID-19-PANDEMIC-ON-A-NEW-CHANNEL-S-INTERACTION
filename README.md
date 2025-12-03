@@ -69,21 +69,15 @@ In particular, at the beginning of the COVID-19 period, the average views of hea
 - This means that when all independent variables are equal to 0, the average view count is **48,510**.  
 - **P-value:** `0.000` — very small, indicating the intercept is statistically significant.
 
----
-
 **Medical_field**
 - **Coefficient:** `-1.489e+04`  
 - This shows that, *outside the COVID-19 period*, health-related videos receive **14,890 fewer views** on average compared to non-health videos.  
 - **P-value:** `0.003` — < 0.05, meaning **medical_field** has a statistically significant effect on view counts.
 
----
-
 **Time_in_covid**
 - **Coefficient:** `5.672e+04`  
 - This indicates that during the COVID-19 period, the average view count of **all videos** increased by **56,720 views**.  
 - **P-value:** `0.000` — strongly significant, suggesting COVID-19 had a substantial impact on video views.
-
----
 
 **DID Interaction Term (`did`)**
 - **Coefficient:** `1.245e+04`  
